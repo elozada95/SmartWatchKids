@@ -1,0 +1,70 @@
+{
+    "author": "Pebble Technology",
+    "dependencies": {},
+    "keywords": [],
+    "name": "cards-example",
+    "pebble": {
+        "displayName": "Cards Example",
+        "enableMultiJS": false,
+        "messageKeys": {
+            "dummy": 0
+        },
+        "projectType": "native",
+        "resources": {
+            "media": [
+                {
+                    "file": "data/Pebble_50x50_Light_rain.pdc",
+                    "name": "ICON_LIGHT_RAIN",
+                    "targetPlatforms": null,
+                    "type": "raw"
+                },
+                {
+                    "file": "data/Pebble_50x50_Sunny_day.pdc",
+                    "name": "ICON_SUNNY_DAY",
+                    "targetPlatforms": null,
+                    "type": "raw"
+                },
+                {
+                    "file": "data/Pebble_50x50_Partly_cloudy.pdc",
+                    "name": "ICON_PARTLY_CLOUDY",
+                    "targetPlatforms": null,
+                    "type": "raw"
+                },
+                {
+                    "file": "data/Pebble_50x50_Light_snow.pdc",
+                    "name": "ICON_LIGHT_SNOW",
+                    "targetPlatforms": null,
+                    "type": "raw"
+                },
+                {
+                    "file": "data/Pebble_50x50_Heavy_snow.pdc",
+                    "name": "ICON_HEAVY_SNOW",
+                    "targetPlatforms": null,
+                    "type": "raw"
+                },
+                {
+                    "file": "data/Pebble_50x50_Heavy_rain.pdc",
+                    "name": "ICON_HEAVY_RAIN",
+                    "targetPlatforms": null,
+                    "type": "raw"
+                },
+                {
+                    "file": "data/Pebble_50x50_Generic_weather.pdc",
+                    "name": "ICON_GENERIC_WEATHER",
+                    "targetPlatforms": null,
+                    "type": "raw"
+                }
+            ]
+        },
+        "sdkVersion": "3",
+        "targetPlatforms": [
+            "aplite",
+            "basalt"
+        ],
+        "uuid": "ae8b2bc4-7f29-41c4-b8e5-d0b3d7a999ad",
+        "watchapp": {
+            "watchface": false
+        }
+    },
+    "version": "1.0.0"
+}
